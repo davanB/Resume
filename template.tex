@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh Gadgil
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill progress bars
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Team}\\\textbf{~~Player~~},
+        \textbf{Concurrent}\\\textbf{Programming},
+        \textbf{~~~~OOP~~~~~},
+        \textbf{Distributed}\\\textbf{Computing},
+        \textbf{Back-End}\\\textbf{Development},
+        \textbf{Test}\\\textbf{Automation},
+        \textbf{Computer}\\\textbf{Security}
+    }
+}
+
+\interests{{Intramural Basketball/5},{Watching Documentaries/4.5},{Working on Challenging Projects/5.5},{Weight Lifting - Fitness/6}}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+
+\cvname{Davan Basran} % Your name
+\cvjobtitle{ 4th Year Electrical Engineering \\ University of Waterloo} % Job title/career
+\cvlinkedin{https://linkedin.com/in/davan-basran}
+\cvnumberphone{647 995 7015} % Phone number
+\cvsite{https://github.com/davanB} % Personal website
+\cvmail{davan.basran@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{Sept 2016 - \\Jan 2017}
+        {Software Development Engineer}
+        {\href{https://www.mcafee.com/ca/index.html}{ McAfee}}
+        {}
+        {
+        {\begin{itemize}
+        \item Developer for Core Technology Platform.
+        \item Worked on asynchronous programs and security critical code in C++. 
+        \item Prevented Named Pipe Squatting which could have resulted in a Denial of Service attack.
+        \item Wrote a high performance logger using Event Tracing for Windows to collect detailed event data.
+        \item Wrote and maintained code in a collaborative environment within a team of 6.
+    \end{itemize}}
+        }
+        
+    \twentyitem
+   		{Jan 2016 - \\ May 2016}
+        {Cyber Security Developer}
+        {\href{https://www.n-dimension.com}{N-Dimension Solutions}}
+        {}
+        {
+        {\begin{itemize}
+        \item Created a build system to facilitate continuous integration using bash scripts, Jenkins and VMware.
+        \item Enhanced the graphical user interface of an open source VPN client which used Qt framework (C++)
+        \item Built company disaster recovery system, currently used to periodically create system backups and restore the system. 
+    \end{itemize}}
+        }
+        
+     \twentyitem
+   		{May 2015 - \\ Sept 2015}
+        {Developer - Coop}
+        {\href{https://www.rbcwealthmanagement.com}{Royal Bank of Canada}}
+        {}
+        {
+        \begin{itemize}
+        \item Designed and implemented a comprehensive tool for testing global markets trading applications using FitNesse in Java, usable by non-technical team members.
+        \item Constructed a message router to route a high volume of messages containing market data for analyses using Java and IBM WebSphere MQ.
+        \item Improved a messaging parsing tool to be more easily configurable for new message types and sources, reducing the time needed to update the code from several hours to half an hour. 
+    \end{itemize}
+    	}
+    	
+    \twentyitem
+   		{Sept 2014 - \\ Jan 2015}
+        {QA Analyst}
+        {\href{http://www1.quicktapsurvey.com}{QuickTapSurvey}}
+        {}
+        {
+        {\begin{itemize}
+        \item Developed and maintained automated tests with Selenium in Java.
+        \item Decreased time needed to regression test from 5 to 1.5 days by remodelling testing procedure and building suite of automated tests.
+        \item Lead meetings to review test cases for new features.
+    \end{itemize}}
+        }
+        
+    \twentyitem
+   		{Jan 2014 - \\ May 2014}
+        {Quality Assurance - Systems Tester}
+        {\href{http://medavail.com}{MedAvail}}
+        {}
+        {
+        {\begin{itemize}
+        \item Executed both hardware and software test cases
+        \item Assisted clients with acceptance testing and product training.
+    \end{itemize}}
+        }
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+\begin{twenty}
+	\twentyitem
+    	{ 2015}
+        {\href{https://github.com/Gourave/Vitesse}{Vitesse} \& \href{https://github.com/Gourave/Vitesse_API}{Vitesse-API}}
+        {Collaborative project}
+        {}
+        {
+        {\begin{itemize}
+        \item Agile based project management site powered by Flask (Python)
+        \item API uses REST and also built using Flask
+        \item Personal effort to learn how to use Flask to develop back-end development skills.
+    \end{itemize}}
+        }
+        
+    \twentyitem
+    	{ 2015}
+        {\href{https://github.com/davanB/School/blob/master/Weighted_graph.h}{Kruskal's algorithm}}
+        {School project}
+        {}
+        {
+        {\begin{itemize}
+        \item Programmed in C++, run time was within top 10\% of class
+    \end{itemize}}
+        }
+\end{twenty}
+
+\end{document} 
