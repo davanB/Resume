@@ -126,7 +126,7 @@
 
 \newcommand{\profilesection}[2]{\vspace{8pt}{\color{black!80} \huge #1 \rule[0.15\baselineskip]{#2}{1pt}}}
 
-\newcommand{\profilsubesection}[1]{\color{black!80} \large \textbf{#1}}}
+\newcommand{\profilsubesection}[1]{\color{black!80} \large \textbf{#1}}
 
 % Define custom commands for CV info
 \newcommand{\cvdate}[1]{\renewcommand{\cvdate}{#1}}
@@ -222,17 +222,16 @@
               \end{array}
         $}
         \\
-        \profilsubesection {Well Versed}
+        \profilsubesection {Proficient In}
         \begin{itemize} [noitemsep]
         \item Java
         \item C++
-        \item C\#
     \end{itemize}
     \profilsubesection {Working Knowledge}
     \begin{itemize} [noitemsep]
         \item C
         \item Python
-        \item JavaScript
+        \item C\#
     \end{itemize}
 
     %------------------------------------------------
@@ -243,9 +242,22 @@
         
         %------------------------------------------------
         \vspace{3mm}
-        \profilesection{Interests}{3cm} 
+        \profilesection{Awards}{3cm} 
+        {$
+              \begin{array}{l}
+              
+              \end{array}
+        $}
+        \\
+        \\
+        \profilsubesection {NSERC Student Research Award}
+        \begin{itemize} [noitemsep]
+        \item SSIMWAVE (2017)
+        \end{itemize}
+        For research in distributed frameworks and integrating them to make highly scalable products.
         
-        \interests
+        % uncomment this for interest bar stuff
+        %\interests
     
   \end{textblock}
 }

@@ -35,7 +35,7 @@
     }
 }
 
-\interests{{Intramural Basketball/5},{Watching Documentaries/4.5},{Working on Challenging Projects/5.5},{Weight Lifting - Fitness/6}}
+%\interests{{Intramural Basketball/5},{Watching Documentaries/4.5},{Working on Challenging Projects/5.5},{Weight Lifting - Fitness/6}}
 
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
@@ -66,18 +66,34 @@
 \section{Experience}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem
-    	{Sept 2016 - \\Jan 2017}
-        {Software Development Engineer}
-        {\href{https://www.mcafee.com/ca/index.html}{ McAfee}}
+		\twentyitem
+    	{Sept 2017 -\\Jan 2018}
+        {Software Engineer - Multimedia Algorithms}
+        {\href{https://www.ssimwave.com}{SSIMWAVE}}
         {}
         {
         {\begin{itemize}
-        \item Developer for Core Technology Platform.
-        \item Worked on asynchronous programs and security critical code in C++. 
+        \item Wrote features to capture video stream quality analytics such as audio packet drop rate, stream discontinuities and IDR frame interval irregularities.
+        \item Utilized Ericsson encoder GURU API to monitor encoder inputs and automatically switch to redundant backup streams.
+        \item Wrote C++ wrappers around NetData API to get real time resource usage data, used to improve the server load balancing algorithm.
+        \item Extended open source ETCD C++ wrappers to write transient data which I then used to redesign the server health and status feature, avoiding clock skew problems.
+        \item Contributed to common infrastructure by developing libraries to handle backend configurations and subprocess management.
+        \item Refactored code to follow RAII principles resulting in unit testable and safe code.
+    \end{itemize}}
+        }
+
+	\twentyitem
+    	{Sept 2016 - \\Jan 2017}
+        {Software Development Engineer}
+        {\href{https://www.mcafee.com/ca/index.html}{McAfee}}
+        {}
+        {
+        {\begin{itemize}
+        \item Used V8 Engine and Chromium to link frontend JavaScript to backend asynchronous C++ functionality.
+        \item Implemented dynamic URL white listing to prevent users from navigating to unsafe sites on the product.
+        \item Wrote a high performance logger using Event Tracing for Windows to collect detailed event and debug information.
         \item Prevented Named Pipe Squatting which could have resulted in a Denial of Service attack.
-        \item Wrote a high performance logger using Event Tracing for Windows to collect detailed event data.
-        \item Wrote and maintained code in a collaborative environment within a team of 6.
+        \item Used gtest and gmock to throughly unit test code.
     \end{itemize}}
         }
         
@@ -88,9 +104,9 @@
         {}
         {
         {\begin{itemize}
-        \item Created a build system to facilitate continuous integration using bash scripts, Jenkins and VMware.
-        \item Enhanced the graphical user interface of an open source VPN client which used Qt framework (C++)
-        \item Built company disaster recovery system, currently used to periodically create system backups and restore the system. 
+        \item Created a build system to facilitate continuous integration using bash scripts, Jenkins and VMware CLI.
+        \item Enhanced the graphical user interface of an open source VPN client which used Qt framework (C++).
+        \item Built the company disaster recovery system, able to restore the build system in the event of a server failure.
     \end{itemize}}
         }
         
@@ -102,8 +118,8 @@
         {
         \begin{itemize}
         \item Designed and implemented a comprehensive tool for testing global markets trading applications using FitNesse in Java, usable by non-technical team members.
-        \item Constructed a message router to route a high volume of messages containing market data for analyses using Java and IBM WebSphere MQ.
-        \item Improved a messaging parsing tool to be more easily configurable for new message types and sources, reducing the time needed to update the code from several hours to half an hour. 
+        \item Constructed a message router to route a high volume of messages containing market data to various servers.
+        \item Improved a data parsing tool to be easily configurable for new market data and sources, eliminating the need for code changes.
     \end{itemize}
     	}
     	
@@ -115,8 +131,7 @@
         {
         {\begin{itemize}
         \item Developed and maintained automated tests with Selenium in Java.
-        \item Decreased time needed to regression test from 5 to 1.5 days by remodelling testing procedure and building suite of automated tests.
-        \item Lead meetings to review test cases for new features.
+        \item Decreased time needed to regression test from 5 to 1.5 days by remodeling testing procedure and developing automated tests.
     \end{itemize}}
         }
         
@@ -127,43 +142,11 @@
         {}
         {
         {\begin{itemize}
-        \item Executed both hardware and software test cases
-        \item Assisted clients with acceptance testing and product training.
+        \item Executed both hardware and software test cases.
     \end{itemize}}
         }
         
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 PROJECTS
-%----------------------------------------------------------------------------------------
-
-\section{Projects}
-\begin{twenty}
-	\twentyitem
-    	{ 2015}
-        {\href{https://github.com/Gourave/Vitesse}{Vitesse} \& \href{https://github.com/Gourave/Vitesse_API}{Vitesse-API}}
-        {Collaborative project}
-        {}
-        {
-        {\begin{itemize}
-        \item Agile based project management site powered by Flask (Python)
-        \item API uses REST and also built using Flask
-        \item Personal effort to learn how to use Flask to develop back-end development skills.
-    \end{itemize}}
-        }
-        
-    \twentyitem
-    	{ 2015}
-        {\href{https://github.com/davanB/School/blob/master/Weighted_graph.h}{Kruskal's algorithm}}
-        {School project}
-        {}
-        {
-        {\begin{itemize}
-        \item Programmed in C++, run time was within top 10\% of class
-    \end{itemize}}
-        }
 \end{twenty}
 
 \end{document} 
