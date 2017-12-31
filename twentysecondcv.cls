@@ -224,8 +224,8 @@
         \\
         \profilsubesection {Proficient In}
         \begin{itemize} [noitemsep]
-        \item Java
         \item C++
+        \item Java
     \end{itemize}
     \profilsubesection {Working Knowledge}
     \begin{itemize} [noitemsep]
