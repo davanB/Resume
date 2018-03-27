@@ -46,7 +46,7 @@
 
 
 \cvname{Davan Basran} % Your name
-\cvjobtitle{ 4th Year Electrical Engineering \\ University of Waterloo} % Job title/career
+\cvjobtitle{ } % Job title/career
 \cvlinkedin{https://linkedin.com/in/davan-basran}
 \cvnumberphone{647 995 7015} % Phone number
 \cvsite{https://github.com/davanB} % Personal website
@@ -76,9 +76,7 @@
         \item Wrote features to capture video stream quality analytics such as audio packet drop rate, stream discontinuities and IDR frame interval irregularities.
         \item Utilized Ericsson encoder GURU API to monitor encoder inputs and automatically switch to redundant backup streams.
         \item Wrote C++ wrappers around NetData API to get real time resource usage data, used to improve the server load balancing algorithm.
-        \item Extended open source ETCD C++ wrappers to write transient data which I then used to redesign the server health and status feature, avoiding clock skew problems.
-        \item Contributed to common infrastructure by developing libraries to handle backend configurations and subprocess management.
-        \item Refactored code to follow RAII principles resulting in unit testable and safe code.
+        \item Extended open source ETCD C++ API to write transient data which was used to redesign the server health and status feature.
     \end{itemize}}
         }
 
@@ -92,8 +90,7 @@
         \item Used V8 Engine and Chromium to link frontend JavaScript to backend asynchronous C++ functionality.
         \item Implemented dynamic URL white listing to prevent users from navigating to unsafe sites on the product.
         \item Wrote a high performance logger using Event Tracing for Windows to collect detailed event and debug information.
-        \item Prevented Named Pipe Squatting which could have resulted in a Denial of Service attack.
-        \item Used gtest and gmock to throughly unit test code.
+        \item Fixed Named Pipe Squatting vulnerability which could have resulted in a Denial of Service attack.
     \end{itemize}}
         }
         
@@ -104,7 +101,7 @@
         {}
         {
         {\begin{itemize}
-        \item Created a build system to facilitate continuous integration using bash scripts, Jenkins and VMware CLI.
+        \item Created a build system to enable continuous integration using bash scripts, Jenkins and VMware CLI.
         \item Enhanced the graphical user interface of an open source VPN client which used Qt framework (C++).
         \item Built the company disaster recovery system, able to restore the build system in the event of a server failure.
     \end{itemize}}
@@ -118,35 +115,37 @@
         {
         \begin{itemize}
         \item Designed and implemented a comprehensive tool for testing global markets trading applications using FitNesse in Java, usable by non-technical team members.
-        \item Constructed a message router to route a high volume of messages containing market data to various servers.
+        \item Constructed a high performance message router to route a high volume of messages containing market data to various servers using IBM MQ.
         \item Improved a data parsing tool to be easily configurable for new market data and sources, eliminating the need for code changes.
     \end{itemize}
     	}
-    	
-    \twentyitem
-   		{Sept 2014 - \\ Jan 2015}
-        {QA Analyst}
-        {\href{http://www1.quicktapsurvey.com}{QuickTapSurvey}}
+\end{twenty}
+
+\section{Projects}
+\begin{twenty}
+\twentyitem
+   		{2018}
+        {Conduit}
+        {Capstone design project}
         {}
         {
-        {\begin{itemize}
-        \item Developed and maintained automated tests with Selenium in Java.
-        \item Decreased time needed to regression test from 5 to 1.5 days by remodeling testing procedure and developing automated tests.
-    \end{itemize}}
+        \\
+        Hardware and software solution to enable off the grid, peer-to-peer communication through smartphones. Collaboratively developed in a group of 5. 
         }
-        
-    \twentyitem
-   		{Jan 2014 - \\ May 2014}
-        {Quality Assurance - Systems Tester}
-        {\href{http://medavail.com}{MedAvail}}
+\end{twenty}
+
+\section{Education}
+\begin{twenty}
+\twentyitem
+   		{April 2018}
+        {University of Waterloo}
+        {Waterloo, Canada}
         {}
         {
-        {\begin{itemize}
-        \item Executed both hardware and software test cases.
-    \end{itemize}}
+        Bachelors of Applied Science, Electrical Engineering, Honours, Co-operative Program
         }
-        
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
+
 
 \end{document} 

@@ -231,7 +231,11 @@
     \begin{itemize} [noitemsep]
         \item C
         \item Python
-        \item C\#
+    \end{itemize}
+    \profilsubesection {Basic Knowledge}
+    \begin{itemize} [noitemsep]
+        \item OpenCL
+        \item OpenMP
     \end{itemize}
 
     %------------------------------------------------
@@ -242,19 +246,18 @@
         
         %------------------------------------------------
         \vspace{3mm}
-        \profilesection{Awards}{3cm} 
+        \profilesection{Awards}{3.4cm} 
         {$
               \begin{array}{l}
               
               \end{array}
         $}
         \\
-        \\
-        \profilsubesection {NSERC Student Research Award}
+        \profilsubesection {NSERC Research Award}
         \begin{itemize} [noitemsep]
         \item SSIMWAVE (2017)
         \end{itemize}
-        For research in distributed frameworks and integrating them to make highly scalable products.
+        For research in integrating ETCD and Apache Kafka to increase real time data streaming performance and overall scalability of the product.
         
         % uncomment this for interest bar stuff
         %\interests
