@@ -235,7 +235,8 @@
     \profilsubesection {Basic Knowledge}
     \begin{itemize} [noitemsep]
         \item OpenCL
-        \item OpenMP
+        \item Hadoop
+        \item Spark
     \end{itemize}
 
     %------------------------------------------------
