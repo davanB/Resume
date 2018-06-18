@@ -73,7 +73,7 @@
         {}
         {
         {\begin{itemize}
-        \item Wrote features to capture video stream quality analytics such as audio packet drop rate, stream discontinuities and IDR frame interval irregularities.
+        \item Wrote features to capture video stream quality analytics for alerting.
         \item Utilized Ericsson encoder GURU API to monitor encoder inputs and automatically switch to redundant backup streams.
         \item Wrote C++ wrappers around NetData API to get real time resource usage data, used to improve the server load balancing algorithm.
         \item Extended open source ETCD C++ API to write transient data which was used to redesign the server health and status feature.
@@ -88,9 +88,9 @@
         {
         {\begin{itemize}
         \item Used V8 Engine and Chromium to link frontend JavaScript to backend asynchronous C++ functionality.
-        \item Implemented dynamic URL white listing to prevent users from navigating to unsafe sites on the product.
-        \item Wrote a high performance logger using Event Tracing for Windows to collect detailed event and debug information.
-        \item Fixed Named Pipe Squatting vulnerability which could have resulted in a Denial of Service attack.
+        \item Implemented dynamic URL white listing to prevent users from navigating to unsafe sites.
+        \item Designed and implemented a high performance logger using Event Tracing for Windows to collect event and debug information.
+        \item Fixed Named Pipe Squatting vulnerability preventing possible Denial of Service attack.
     \end{itemize}}
         }
         
