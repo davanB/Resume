@@ -242,6 +242,20 @@
     %------------------------------------------------
         \vspace{3mm}
         \profilesection{Skills}{4cm}
+        {$
+              \begin{array}{l}
+              
+              \end{array}
+        $}
+        \\
+        \begin{itemize} [noitemsep]
+        \item OOP
+        \item Concurrent Programming
+        \item Distributed Computing
+        \item Computer Security
+        \item Team Player
+        \item Unit Testing
+    \end{itemize}
 
     	\skills
         
