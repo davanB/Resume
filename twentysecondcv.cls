@@ -225,18 +225,12 @@
         \profilsubesection {Proficient In}
         \begin{itemize} [noitemsep]
         \item C++
-        \item Java
+        \item C\# (.NET)
     \end{itemize}
     \profilsubesection {Working Knowledge}
     \begin{itemize} [noitemsep]
-        \item C
+        \item SQL
         \item Python
-    \end{itemize}
-    \profilsubesection {Basic Knowledge}
-    \begin{itemize} [noitemsep]
-        \item OpenCL
-        \item Hadoop
-        \item Spark
     \end{itemize}
 
     %------------------------------------------------
