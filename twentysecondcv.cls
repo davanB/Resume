@@ -243,12 +243,12 @@
         $}
         \\
         \begin{itemize} [noitemsep]
-        \item OOP
         \item Concurrent Programming
         \item Distributed Computing
-        \item Computer Security
-        \item Team Player
-        \item Unit Testing
+        \item Linear Regression
+        \item Logistic Regression
+        \item K-means Clustering
+        \item Learning Algorithm Debugging
     \end{itemize}
 
     	\skills
