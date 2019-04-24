@@ -255,18 +255,18 @@
         
         %------------------------------------------------
         \vspace{3mm}
-        \profilesection{Awards}{3.4cm} 
+        \profilesection{Courses}{3.4cm} 
         {$
               \begin{array}{l}
               
               \end{array}
         $}
         \\
-        \profilsubesection {NSERC Research Award}
+        \profilsubesection {Coursera}
         \begin{itemize} [noitemsep]
-        \item SSIMWAVE (2017)
+        \item Machine Learning
+        \item Deep Learning Specialization
         \end{itemize}
-        For research in integrating ETCD and Apache Kafka to increase real time data streaming performance and overall scalability of the product.
         
         % uncomment this for interest bar stuff
         %\interests
